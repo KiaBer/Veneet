@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+.header {
+	padding: 30px;
+	color: white;
+	text-align: center;
+	background-color: #0099ff;
+}
+
+h1 {
+	text-shadow: 2px 2px 5px blue;
+	font-family: 'Courgette', cursive;
+}
+
+table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ 	border-collapse: collapse;  
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 6px;  
+}
+
+table tbody tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+	background-color: #ddd;
+}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+  	background-color: #4db8ff;
+  	color: white;
+}
+
+.nappi{
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.nappi:hover{
+	color:#0000cc;
+}
+
+.muuta{
+	text-decoration:none;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.muuta:hover{
+	text-decoration: underline;
+}
+
+.poista{
+	color: red;
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+.poista:hover{
+	text-decoration: underline;
+}
+
+.oikealle{
+	text-align: right;	
+}
+
+#uusiVene, #takaisin{
+	color: white;	
+	cursor: pointer;
+	margin-left: 10px;	
+}
+
+#uusiVene:hover{
+	color:#000066;
+}
+
+#takaisin:hover{
+	color:#000066;
+}
+
+#ilmo{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+footer{
+	background-color: #e6f5ff;
+}
+
+footer ul li {
+	list-style-type: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 3px;
+}
